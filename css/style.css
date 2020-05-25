@@ -1,0 +1,262 @@
+@import reset.css;
+
+body {
+    padding: 0 20px;
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.status_bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+
+.header i {
+    margin-left: 20px;
+}
+
+.me {
+    border-bottom: 1px solid grey;
+}
+
+.me, .friend {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: white;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #111114;
+    padding: 0 80px;
+    margin: 0 -30px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    font-size: 32px;
+}
+
+.chat {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+}
+
+.content_title {
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+
+.content_preview {
+    color: grey;
+    font-size: 14px;
+}
+
+.timestamp {
+    color: grey;
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+h3 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.article {
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid grey;
+}
+
+.topic_header {
+    color: grey;
+}
+
+.topic_header h3:nth-child(2) {
+    color: white;
+}
+
+.photo_articles {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo_article {
+    width: 100%;
+    margin: 5px;
+}
+
+.photo_article .photo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.photo_article .title {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.search {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    margin: 0 -30px;
+    padding: 10px 20px;
+    width: 100%;
+    height: 200px;
+    background-color: #1C1C1C;
+}
+
+.search_bar {
+    padding: 10px 20px;
+    border: 5px solid #F1D955;
+    border-radius: 20px;
+    font-size: 24px;
+    color: #F1D955;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_bar_head {
+    width: 100%;
+}
+
+input {
+    background-color: #1C1C1C;
+    border: 0;
+    font-size: 24px;
+    color: grey;
+    padding: 5px;
+    width: 80%;
+}
+
+.search_bar i:last-child {
+    color: darkgrey;
+}
+
+.tags {
+    margin-top: 20px;
+}
+
+.tag {
+    margin-right: 10px;
+    background-color: #2C2C2C;
+    color: darkgrey;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email {
+    color: grey;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: inherit;
+    color: white;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.pay {
+    background-color: #1C1C1C;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.amount {
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+.icon_image {
+    font-size: 48px;
+}
+
+.icon_title {
+    color: rgb(175, 175, 175);
+    font-size: 14px;
+}
+
+.news {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 28px;
+}
+
+.normal {
+    color: grey;
+    font-size: 26px;
+}
